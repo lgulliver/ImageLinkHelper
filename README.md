@@ -10,4 +10,6 @@
 
 ## Example Usage ##
 
-> @Html.ImageLink("Register", "Account", null, Url.Content("~/content/images/button-register.png"), Url.Content("~/content/images/button-register-hover.png"), "Register an Account", null, new { style = "margin-right: 15px;" })
+```
+@Html.ImageLink("Register", "Account", null, Url.Content("~/content/images/button-register.png"), Url.Content("~/content/images/button-register-hover.png"), "Register an Account", null, new { style = "margin-right: 15px;" })
+```
